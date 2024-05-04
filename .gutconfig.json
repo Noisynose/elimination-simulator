@@ -1,0 +1,12 @@
+{
+    "dirs":[
+        "res://src"
+    ],
+    "include_subdirs":true,
+    "ignore_pause":false,
+    "log_level":3,
+    "should_exit":false,
+    "should_maximize":true,
+    "prefix":"",
+    "suffix":".test.gd"
+}
