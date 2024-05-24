@@ -16,3 +16,9 @@ func test_given_an_attribute_when_get_value_then_equals_init_value():
 
   var expected_result: int = 123
   assert_eq(result, expected_result)
+
+func test_given_two_different_instances_when_get_value_then_values_are_different():
+  var instance = mainModule.new(123)
+  var anotherInstance = mainModule.new(321)
+
+  assert_ne(instance.something, anotherInstance.something)
